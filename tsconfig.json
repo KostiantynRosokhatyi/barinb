@@ -3,6 +3,11 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@app/ui/theme/layout": ["src/app/ui/theme/layout/index.ts"],
+      "@app/ui/icons": ["src/app/ui/icons/index.ts"]
+    },
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
